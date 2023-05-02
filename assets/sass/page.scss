@@ -1,0 +1,19 @@
+.page{
+  .container{
+    .posts-list{
+      padding: 3rem 0 10rem;
+      @include flex(flex, flex-start, space-between);
+      flex-wrap: wrap;
+      gap: 48px 40px;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .page{
+    .container{
+      .posts-list{
+        padding: 0.375rem 0 2rem;
+      }
+    }
+  }
+}

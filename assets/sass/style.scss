@@ -1,0 +1,12 @@
+html {
+  font-size: 16px;
+}
+@import "mixins/flex";
+@import "mixins/font";
+@import "../css/reset.css";
+@import "variables";
+@import "main";
+@import "header";
+@import "page";
+@import "post";
+
